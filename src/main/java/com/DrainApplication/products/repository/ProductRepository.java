@@ -1,6 +1,6 @@
-package DrainApplication.products.repository;
+package com.DrainApplication.products.repository;
 
-import DrainApplication.products.models.entities.Product;
+import com.DrainApplication.products.models.entities.Product;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

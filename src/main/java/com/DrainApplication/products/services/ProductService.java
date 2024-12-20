@@ -1,10 +1,10 @@
-package DrainApplication.products.services;
+package com.DrainApplication.products.services;
 
+import com.DrainApplication.products.models.request.ProductRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import DrainApplication.products.models.entities.Product;
-import DrainApplication.products.models.request.ProductRequest;
-import DrainApplication.products.repository.ProductRepository;
+import com.DrainApplication.products.models.entities.Product;
+import com.DrainApplication.products.repository.ProductRepository;
 
 import java.util.List;
 

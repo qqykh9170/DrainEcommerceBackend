@@ -1,20 +1,19 @@
-package DrainApplication.products.models.request;
+package com.DrainApplication.products.models.request;
+
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
+@AllArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
-@NoArgsConstructor
-@AllArgsConstructor
 public class ProductRequest {
-
-    private int productId;
+    private Long productId;
     private String productName;
     private String productDescription;
     private double price;
     private int stockQuantity;
     private int categoryId;
-
 }

@@ -1,10 +1,10 @@
-package DrainApplication.products.controller;
+package com.DrainApplication.products.controller;
 
+import com.DrainApplication.products.models.entities.Product;
+import com.DrainApplication.products.models.request.ProductRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
-import DrainApplication.products.models.entities.Product;
-import DrainApplication.products.models.request.ProductRequest;
-import DrainApplication.products.services.ProductService;
+import com.DrainApplication.products.services.ProductService;
 
 import java.util.List;
 
