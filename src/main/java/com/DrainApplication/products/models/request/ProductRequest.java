@@ -10,10 +10,10 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ProductRequest {
-    private Long productId;
+
     private String productName;
     private String productDescription;
     private double price;
     private int stockQuantity;
-    private int categoryId;
+
 }
